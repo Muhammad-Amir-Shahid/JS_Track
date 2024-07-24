@@ -1,1 +1,4 @@
-console .log('Hello! my name is Amir');
+let amount=24;
+let net=10;
+var price =100;
+console. log(amother);
