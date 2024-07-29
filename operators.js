@@ -17,6 +17,6 @@ console.log("a ** b = ",a**b);// exponentiation
 
 console.log("a =", ++a);
 console.log("a==b", a==b);
-
-
+let d= 6;
+console.log("a!==d", a!==d);
 
