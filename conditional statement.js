@@ -1,4 +1,4 @@
-conditional statement
+//conditional statement
 let age=25;
 if (age>=18)
 {
