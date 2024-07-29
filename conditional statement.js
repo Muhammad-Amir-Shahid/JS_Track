@@ -2,9 +2,11 @@
 let age=25;
 if (age>=18)
 {
-    console.log("cam vote");
+    console.log("can vote");
 }
 
+let result=age>18 ? "Yes":"No";  
+console.log(result);
 
 let mode = "dark";
 let color;
@@ -12,8 +14,12 @@ if (mode==="dark")
 {
     color ="black";
 }
-if (mode==="light")
+else if (mode==="light")
 {
     color="white";
+}
+else
+{
+color ="Blue";
 }
 console.log(color);
