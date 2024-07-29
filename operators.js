@@ -22,7 +22,6 @@ let b=3;
 
 
 // logical operators
-
 let condition1=a>b;
 let condition2=a===5;
 
