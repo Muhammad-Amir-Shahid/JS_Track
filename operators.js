@@ -11,4 +11,8 @@ console.log("a + b = ", c);
 console.log("a - b = ",a-b );
 console.log("a * b = ",a*b );
 console.log("a / b = ",a/b );
-console.log("a % b = ",a%b)
+console.log("a % b = ",a%b);
+console.log("a ** b = ",a**b);// exponentiation
+//unary operator 
+a++;
+console.log("a =", a);
