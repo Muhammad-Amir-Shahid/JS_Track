@@ -3,7 +3,7 @@
 line 
 comments*/
 
-let a=2;
+let a=5;
 let b=3;
 let c=a+b;
 console.log("a =", a ,"b =", b);
@@ -14,5 +14,9 @@ console.log("a / b = ",a/b );
 console.log("a % b = ",a%b);
 console.log("a ** b = ",a**b);// exponentiation
 //unary operator 
-a++;
-console.log("a =", a);
+
+console.log("a =", ++a);
+console.log("a==b", a==b);
+
+
+
