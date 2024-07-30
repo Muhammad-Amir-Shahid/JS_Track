@@ -1,4 +1,7 @@
+
+let sum = 0;
 for (let i=0;i<5;i++)
 {
-    console.log("I Amir Khan");
+  sum = sum + i;
 }
+console.log(sum);
