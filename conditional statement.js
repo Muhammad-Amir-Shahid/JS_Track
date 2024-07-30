@@ -23,22 +23,27 @@
 // color ="Blue";
 // }
 // console.log(color);
-const expr="orange";
-switch(expr)
-{
-case 'orange':
-    {
-        console.log("Orange");
-        break;
-    }
-case "Potato":
-    {
-        break;
-    }
-case "Egg":
-    {
-        break;
-    }
+// const expr="orange";
+// switch(expr)
+// {
+// case 'orange':
+//     {
+//         console.log("Orange");
+//         break;
+//     }
+// case "Potato":
+//     {
+//         break;
+//     }
+// case "Egg":
+//     {
+//         break;
+//     }
+// }
 
-}
+alert("Warning!");
+
+let name=prompt("Enter Name");
+console.log(name);
+
 
