@@ -1,4 +1,24 @@
-let str='Amir Khan';
+// //strings
+// let str='Amir Khan';
+
+// console.log(str[3]);
+
+// //templates
+
+// let str1=`this s template`;
+// console.log(str1);
 
 
-console.log(str[3]);
+//use of template 
+let obj={
+    pen:"Pelikan",
+    price:120
+};
+
+let output=`The price of ${obj.pen} is ${obj.price} rupees.`;
+console.log(output);
+
+
+
+
+
