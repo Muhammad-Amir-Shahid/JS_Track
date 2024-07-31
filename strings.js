@@ -9,16 +9,18 @@
 // console.log(str1);
 
 
-//use of template 
-let obj={
-    pen:"Pelikan",
-    price:120
-};
+// //use of template 
+// let obj={
+//     pen:"Pelikan",
+//     price:120
+// };
 
-let output=`The price of ${obj.pen} is ${obj.price} rupees.`;
-console.log(output);
+// let output=`The price of ${obj.pen} is ${obj.price} rupees.`;
+// console.log(output);
 
+let str2 = "Bahria University Lahore Campus";
 
+console.log(str2);
 
 
 
