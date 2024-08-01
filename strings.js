@@ -25,3 +25,9 @@ console.log(str2);
 console.log("Missed :-(");
 
 // doing my best
+
+
+let obj1={
+name:'amir',
+age:23
+};
