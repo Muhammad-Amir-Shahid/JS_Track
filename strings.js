@@ -7,8 +7,6 @@ console.log(str[3]);
 
 let str1=`this s template`;
 console.log(str1);
-//today ii missed
-//iggbhuibuib
 //use of template 
 let obj={
     pen:"Pelikan",
