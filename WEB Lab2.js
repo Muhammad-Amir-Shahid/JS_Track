@@ -1,15 +1,12 @@
+const EventEmitter = require('events');
 
-const fetchApiData = async () => {
-    try {
-      const data1 = await fetchFromApi1(); 
-      console.log(data1); 
-  
-      const data2 = await fetchFromApi2(); 
-      console.log(data2); 
-    } catch (error) {
-      console.error(error); 
-    }
-  };
-  
-  fetchApiData();
-  
+// Create a custom event emitter
+const customEmitter = new EventEmitter();
+
+// Attach a listener to a custom event
+customEmitter.on('greet', (name) => {
+  console.log(Hello, ${name}! Welcome to the custom event.);
+});
+
+// Trigger the event
+customEmitter.emit('greet', 'Amir');
