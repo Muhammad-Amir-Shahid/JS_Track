@@ -5,7 +5,7 @@ const customEmitter = new EventEmitter();
 
 // Attach a listener to a custom event
 customEmitter.on('greet', (name) => {
-  console.log(Hello, ${name}! Welcome to the custom event.);
+  console.log(Hello, );
 });
 
 // Trigger the event
